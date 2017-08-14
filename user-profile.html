@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>User Profile</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="user-prifile">
+    <header class="navbar navbar-expand">
+    
+            
+                <a class="navbar-btn-mnu" href="#">
+                  <svg version="1.1" id="mnu_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 62 41" style="enable-background:new 0 0 62 41;" xml:space="preserve">                    
+                      <g id="mnu_icon_group">
+                       
+                          <path class="mnu_icon_path" d="M57.5,32h-53C2,32,0,34,0,36.5S2,41,4.5,41h53c2.5,0,4.5-2,4.5-4.5S60,32,57.5,32z"/>
+                       
+                          <path class="mnu_icon_path" d="M57.5,16h-53C2,16,0,18,0,20.5S2,25,4.5,25h53c2.5,0,4.5-2,4.5-4.5S60,16,57.5,16z"/>
+                      
+                          <path class="mnu_icon_path" d="M57.5,0h-53C2,0,0,2,0,4.5S2,9,4.5,9h53C60,9,62,7,62,4.5S60,0,57.5,0z"/>
+                       
+                      </g>
+                      </svg>
+
+                </a>
+                <span class="navbar-brand">
+                  User Profile
+                </span>
+                <ul class="navbar-nav flex-row ml-auto d-none d-flex">
+                  <li class="nav-item user-info">
+                    <span class="navbar-text">Hello,</span>
+                    <a href="#" class="user-text">
+                      <img src="image/user_small.png" height="30" width="30" alt="..." class="rounded-circle">
+                      Mr.John Smith!
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="navbar-btn-exit">
+                      <svg version="1.1" id="exit_btn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 74.984 75.988" style="enable-background:new 0 0 74.984 75.988;" xml:space="preserve">
+                        <g>                        
+                          <path class="exit_btn-path" d="M37.492,0c2.752,0,4.967,2.269,4.967,5.088v19.916c0,2.819-2.215,5.09-4.967,5.09
+                            c-2.752,0-4.967-2.271-4.967-5.09V5.088C32.525,2.269,34.74,0,37.492,0"/>
+                          <path class="exit_btn-path" d="M20.971,8.582c1.303-0.028,2.094,1.525,2.291,3.1c0.235,1.883-0.58,4.317-2.057,5.281
+                            c-7.975,5.009-13.22,13.602-13.22,23.402c0,15.53,13.163,28.037,29.507,28.037C53.837,68.402,67,55.895,67,40.365
+                            c0-9.8-5.245-18.393-13.22-23.402c-2.23-1.694-2.109-3.822-1.717-6.022c0.313-1.757,1.879-2.885,3.867-1.58
+                            c11.364,6.13,19.055,17.736,19.055,31.004c0,19.629-16.833,35.623-37.493,35.623C16.833,75.988,0,59.994,0,40.365
+                            C0,26.737,8.114,14.861,19.989,8.873C20.342,8.679,20.67,8.588,20.971,8.582"/>
+                        </g>
+                        </svg>
+                  </a>
+                  </li>
+                  
+                </ul>
+     
+    </header>
+    <div class="main">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="card w-100">
+              <div class="card-body">
+              <form action="" class="h-100">
+                <div class="row gutters-10 usr-profile">
+                  <div class="col-6">
+                    <h4 class="card-title">User Profile</h4>
+                    <div class="form-group">
+                          <label for="inputFirstName">First Name*</label>
+                          <input type="text" class="form-control form-control-sm" id="inputFirstName" aria-describedby="firstnameHelp" placeholder="John">
+                    </div>  
+                    <div class="form-group">
+                          <label for="inputLastame">Last Name*</label>
+                          <input type="text" class="form-control form-control-sm" id="inputLastame" aria-describedby="LastameHelp" placeholder="Smith">
+                    </div> 
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="inputPhoto" class="grey-text">Profile Photo</label>
+                      <small id="photoHelp" class="form-text grey-text mb-05">Maximum file size is 1Mb</small>
+                      <input type="hidden" id="inputPhoto">
+                      <div class="row no-gutters">
+                        <div class="col-8">
+                          
+                          <a href="#" class="load-photo">
+                          <img src="image/user_big.png"  alt="..." class="rounded-circle img-shadow img-bordered img-fluid">
+                          <span class="camera"></span>
+                          </a>
+                        </div>
+                        <div class="col-4 text-center">
+                          <img src="image/user_big.png"  alt="..." class="rounded-circle img-shadow img-bordered img-fluid" width="50" height="50">
+                          <img src="image/user_big.png"  alt="..." class="rounded-circle img-shadow img-bordered img-fluid" width="35" height="35">
+                          <img src="image/user_big.png"  alt="..." class="rounded-circle img-shadow img-bordered img-fluid" width="25" height="25">
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="scroll-container">
+                  <div class="row gutters-10">
+                    <div class="col">
+                      <h4 class="card-title">Address</h4>
+                      <div class="form-group">
+                          <label for="inputAddress">Address*</label>
+                          <input type="text" class="form-control form-control-sm" id="inputAddress" aria-describedby="addressHelp" placeholder="e.g. Long Street, 84">
+                    </div>  
+                    <div class="form-group">
+                          <label for="inputExAddress">Extended Address</label>
+                          <input type="text" class="form-control form-control-sm" id="inputExAddress" aria-describedby="exaddressHelp" placeholder="e.g. 2th Floor, 5 Appartament">
+                    </div> 
+                    </div>
+
+                  </div>
+                  <div class="row gutters-10">
+                    <div class="col-7">
+                      <div class="form-group">
+                          <label for="inputCity">City*</label>
+                          <input type="text" class="form-control form-control-sm" id="inputCity" aria-describedby="CityHelp" placeholder="e.g. New York">
+                    </div>
+                    </div>
+                    <div class="col-2">
+                      <div class="form-group">
+                          <label for="inputState">State*</label>
+                          <input type="text" class="form-control form-control-sm pl-2 pr-2 text-center" id="inputState" aria-describedby="StateHelp" placeholder="NY">
+                    </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="form-group">
+                          <label for="inputZCode">ZIP Code*</label>
+                          <input type="text" class="form-control form-control-sm pl-2 pr-2 text-center" id="inputZCode" aria-describedby="ZCodeHelp" placeholder="25625">
+                    </div>
+                    </div>
+                  </div>
+                  <div class="row gutters-10 mt-10">
+                    <div class="col">
+                      <h4 class="card-title">Contacts</h4>
+                    </div>
+                  </div>
+                  <div class="row gutters-10">
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputCPhone">Cell Phone*</label><input type="text" class="form-control form-control-sm" id="inputCPhone" placeholder="210-321-2123"></div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputPhone">Phone</label><input type="text" class="form-control form-control-sm" id="inputPhone" placeholder="210-321-2123"></div>
+                    </div>
+                  </div>
+                  <div class="row gutters-10">
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputFax">Fax</label><input type="text" class="form-control form-control-sm" id="inputFax" placeholder="210-321-2123"></div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputAltPhone">Alt. Phone</label><input type="text" class="form-control form-control-sm" id="inputAltPhone" placeholder="210-321-2123"></div>
+                    </div>
+                  </div>
+                  <div class="row gutters-10 mt-10">
+                    <div class="col">
+                      <h4 class="card-title mb-0">Social Profiles</h4>
+                      <small class="form-text grey-text mb-05">Just add the end of the url e.g. for https://twitter.com/johnsmith it will be <u>johnsmith</u></small>
+                    </div>
+                  </div>
+                   <div class="row gutters-10">
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputFacebook">Facebook</label><input type="text" class="form-control form-control-sm" id="inputFacebook" placeholder="johnsmith"></div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputGoogle">Google+</label><input type="text" class="form-control form-control-sm" id="inputGoogle" placeholder="johnsmith"></div>
+                    </div>
+                  </div>
+                  <div class="row gutters-10">
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputLinkedIn">LinkedIn</label><input type="text" class="form-control form-control-sm" id="inputLinkedIn" placeholder="johnsmith"></div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputTwitter">Twitter</label><input type="text" class="form-control form-control-sm" id="inputTwitter" placeholder="johnsmith"></div>
+                    </div>
+                  </div>
+                  <div class="row gutters-10 mt-10">
+                    <div class="col">
+                      <h4 class="card-title mb-0">Demographic info</h4>
+                      <small class="form-text grey-text mb-05">Non of it information will shown on your profile. This will be used to help customize your working experience on DispatchHub.</small>
+                    </div>
+                  </div>
+                   <div class="row gutters-10">
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputDateofBirth">Date of Birth</label><input type="text" class="form-control form-control-sm" id="inputDateofBirth" placeholder="Please select your Birthday"></div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputGender">Gender</label>
+                      <select  class="form-control form-control-sm fc-1" id="inputGender" >
+                        <option value="">Choose</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                      </select>
+                      <span class="input-group-btn"><i class="glyphicon glyphicon-menu-down"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row gutters-10">
+                     <div class="col-6">
+                      <div class="form-group"><label for="inputEdu">Education Level</label>
+                      <select  class="form-control form-control-sm fc-1" id="inputEdu" >
+                        <option value="">Choose</option>
+                        <option value="">Primary</option>
+                        <option value="">Secondary</option>
+                        <option value="">High School</option>
+                        
+                      </select>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputExp">Experience in Trucking since:</label><input type="text" class="form-control form-control-sm" id="inputExp" placeholder="Please select year"></div>
+                    </div>
+                  </div>
+                   <div class="row gutters-10 mt-10">
+                    <div class="col-5">
+                      <h4 class="card-title mb-0">Driver License</h4>
+                     
+                    </div>
+                    <div class="col-7">
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" >
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Commercial</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row gutters-10">
+                    <div class="col-7">
+                      <div class="form-group"><label for="inputDLNumber">Number*</label><input type="text" class="form-control form-control-sm" id="inputDLNumber" placeholder="WALKEJ*150C5"></div>
+                    </div>
+                    <div class="col-3">
+                      <div class="form-group">
+                          <label for="inputDLState">State*</label>
+                          <input type="text" class="form-control form-control-sm pl-2 pr-2 text-center" id="inputDLState" aria-describedby="DLStateHelp" placeholder="NY">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row gutters-10">
+                    <div class="col-7">
+                      <div class="form-group"><label for="inputDLExpiration">Expiration</label><input type="text" class="form-control form-control-sm" id="inputDLExpiration" placeholder="e.g.Dec 23th 2018"></div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row gutters-10 mt-10">
+                    <div class="col">
+                      <h4 class="card-title mb-0">CDL Endorsements</h4>
+                    </div>
+                  </div>
+                  <div class="row gutters-10 mt-10">
+                  
+                    <div class="col-6">
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" >
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Hazardous Materials</span>
+                      </label>
+                      <div class="form-group"><label for="inputHMExpiration">Expiration</label><input type="text" class="form-control form-control-sm" id="inputHMExpiration" placeholder="e.g.Dec 23th 2018"></div>
+                    </div>
+                    <div class="col-6">
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" >
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Tank Vehicles</span>
+                      </label>
+                      <div class="form-group"><label for="inputTVExpiration">Expiration</label><input type="text" class="form-control form-control-sm" id="inputTVExpiration" placeholder="e.g.Dec 23th 2018"></div>
+                    </div>
+                  </div> 
+                  <div class="row gutters-10 mt-10">
+                  
+                    <div class="col-6">
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" >
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Double/Triple Trailers</span>
+                      </label>
+                      <div class="form-group"><label for="inputDTTExpiration">Expiration</label><input type="text" class="form-control form-control-sm" id="inputDTTExpiration" placeholder="e.g.Dec 23th 2018"></div>
+                    </div>
+                    <div class="col-6">
+                      <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" >
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Tank Vehicles with Hazardous Materials</span>
+                      </label>
+                      <div class="form-group"><label for="inputTVHMExpiration">Expiration</label><input type="text" class="form-control form-control-sm" id="inputTVHMExpiration" placeholder="e.g.Dec 23th 2018"></div>
+                    </div>
+                  </div>
+                   <div class="row gutters-10  mt-10">
+                    <div class="col">
+                      <h4 class="card-title mb-0">Medical Exam</h4>
+                    </div>
+                  </div>  
+                  <div class="row gutters-10">
+                    <div class="col-6">
+                      <div class="form-group"><label for="inputMEExpiration">Expiration</label><input type="text" class="form-control form-control-sm" id="inputMEExpiration" placeholder="e.g.Dec 23th 2018"></div>
+                    </div>
+                    
+                  </div> 
+
+                </div>
+                <div class="bottom-bg"></div> 
+                <div class="row gutters-10">
+                  <div class="col-6 ml-auto">
+                    <div class="row gutters-5 mt-10">
+                          <div class="col-6 text-center"><button class="btn btn-danger btn-sm w-100">Delete</button></div>
+                          <div class="col-6 text-center"><button type="submit" class="btn btn-primary btn-sm w-100">Save</button></div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between">
+        <div class="col-6">
+         <div class="footer-logo">
+         <div class="media">
+
+            <img class="d-flex mr-1" src="image/svg/logo.svg" width="25">
+            <div class="media-body">
+              <p class="footer-text">Create-company</p>
+            </div>
+          </div>
+           
+          
+         </div>
+        </div>
+      
+          <div class="col text-right">
+            <a href="#" class="copy-footer">Dispatch Hub</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

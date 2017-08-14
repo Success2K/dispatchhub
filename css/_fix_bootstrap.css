@@ -1,0 +1,31 @@
+a {
+  font-size: 0.8rem;
+  color: #445692;
+}
+
+h5, .modal-title {
+  color: #535253;
+  font-size: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  font-size: 11px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.btn-outline-primary {
+  color: #445692;
+  border-color: #445692;
+}
+
+.btn-primary {
+  background-color: #445692;
+  border-color: #445692;
+}
